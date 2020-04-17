@@ -4,7 +4,7 @@ library(ggsci)
 # mafft to align sequences 
 # run as mafft corona_european_wholeGenome_unaligned > corona_european_china_wholeGenome_aligned.fasta 
 # Remove all sequences with more than 80% gaps, and remove all positions that more than 90% gaps
-# use raxml-ng to construct a phylogenetic tree as folllows
+# use raxml-ng to construct a phylogenetic tree as follows
 # 
 
 coronaTree_all <- read.tree("/local/home/pk/Downloads/corona_european_china_wholeGenome_trimmed.fasta.raxml.bestTree")
